@@ -6,7 +6,7 @@
 #include <sys/wait.h>
 #include <fcntl.h>
 
-#define FIFO_NAME "/tmp/execlFifo"
+#define FIFO_NAME "/tmp/newFifo"
 
 int main() {
     int pipe_fd;
